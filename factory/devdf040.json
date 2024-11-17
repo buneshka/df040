@@ -1,0 +1,9 @@
+{
+	"name": "devdf040",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7dc8b604-2580-4f69-99a5-f6be61058f44",
+		"tenantId": "ca850369-cc1f-4576-bc73-8b280adfe38e"
+	}
+}

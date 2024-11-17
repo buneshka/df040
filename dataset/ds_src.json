@@ -1,0 +1,44 @@
+{
+	"name": "ds_src",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_src_blob",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "customer.csv",
+				"container": "raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "1",
+				"type": "String"
+			},
+			{
+				"name": "Orlando",
+				"type": "String"
+			},
+			{
+				"name": "Gee",
+				"type": "String"
+			},
+			{
+				"name": "orlando0@adventure-works.com",
+				"type": "String"
+			},
+			{
+				"name": "245-555-0173",
+				"type": "String"
+			}
+		]
+	}
+}

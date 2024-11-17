@@ -1,0 +1,9 @@
+{
+	"name": "qadf040",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "fd315c12-6372-4bc0-bc1e-1dc53b39c8bf",
+		"tenantId": "ca850369-cc1f-4576-bc73-8b280adfe38e"
+	}
+}
